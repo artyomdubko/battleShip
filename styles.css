@@ -1,0 +1,53 @@
+ body {
+    margin: 60px auto;
+    width: 70%;
+    max-width: 950px;
+	background-color: #dddddd;
+}
+
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+p, button, input {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+	margin-bottom:1em;
+}
+
+#gameboard {
+	position:relative;
+	margin:0 auto 2em auto;
+	width:500px;
+	height:500px;
+	cursor: url('images/crosshair.png') 16 16, crosshair;
+}
+
+#gameboard div {
+	position:absolute;
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+	background: #f6f8f9; /* Old browsers */
+	border: 1px solid #ddd; 
+	background-color: #894baa;
+} 
+
+.board-text  {	
+    background-color: #d7d895 !important;
+    vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 111px;
+    font-size: 45px;
+	cursor: default;
+} 
+.battle-img{
+    position:absolute;
+    top:0;
+    display:none;
+    width:100%;
+    height:100%;
+}
